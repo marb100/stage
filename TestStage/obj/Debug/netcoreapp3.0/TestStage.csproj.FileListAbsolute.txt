@@ -1,0 +1,13 @@
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.exe
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.deps.json
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.runtimeconfig.json
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.runtimeconfig.dev.json
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.dll
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\TestStage.pdb
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.csprojAssemblyReference.cache
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.AssemblyInfoInputs.cache
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.AssemblyInfo.cs
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.dll
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.pdb
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\bstad\Documents\semester 3\stage opdracht\projecten\TestStage\obj\Debug\netcoreapp3.0\TestStage.csproj.CopyComplete
