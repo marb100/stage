@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bstad\\Documents\\semester 3\\stage opdracht\\projecten\\TestStage\\TestStage.csproj",
+      "projectUniqueName": "C:\\Users\\bstad\\Documents\\semester3\\stage\\TestStage\\TestStage.csproj",
       "projectName": "TestStage",
-      "projectPath": "C:\\Users\\bstad\\Documents\\semester 3\\stage opdracht\\projecten\\TestStage\\TestStage.csproj",
+      "projectPath": "C:\\Users\\bstad\\Documents\\semester3\\stage\\TestStage\\TestStage.csproj",
       "packagesPath": "C:\\Users\\bstad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bstad\\Documents\\semester 3\\stage opdracht\\projecten\\TestStage\\obj\\",
+      "outputPath": "C:\\Users\\bstad\\Documents\\semester3\\stage\\TestStage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

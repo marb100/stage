@@ -1,21 +1,50 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace TestStage
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string hallo = string.Format("{0:e}", 1,2e2);
-            int ha = Convert.ToInt32(hallo);
-            Console.WriteLine(ha);
+            bool running = true;
+            while(running = true)
+                {
+                string input = Console.ReadLine();
+                if (input == "1")
+                {
+                    opdrachtFizzBuzz();
+                }
+                else if(input == "2")
+                {
+                    Opdracht2();
+                }
+                else if (input == "3")
+                {
+                    Opdracht3();
+                }
+                else if (input == "4")
+                {
+                    Opdracht4();
+                }
+                else if (input == "5")
+                {
+                    int m = Convert.ToInt32(Console.ReadLine());
+                    int n = Convert.ToInt32(Console.ReadLine());
+                    Opdracht5(m, n);
+                }
+                else if(input == "6"){
+                    break;
+                }
+            }
+            
         }
 
 
-        public void opdrachtFizzBuzz()
+        public static void opdrachtFizzBuzz()
         {
             for (int i = 1; i < 31; i++)
             {
@@ -24,6 +53,34 @@ namespace TestStage
                 else if (i % 5 == 0) Console.WriteLine("buzz");
                 else Console.WriteLine(i);
             }
+        }
+
+        private static object[] InputValues()
+        {
+            return new[]
+            {
+                "5",
+                "1,2e2",
+                null,
+                "-5555",
+                "6.767"
+            };
+        }
+
+        public static void Opdracht2()
+        {
+            string total = "";
+            object[] vars = InputValues();
+            foreach (var item in vars)
+            {
+                total += item;
+            }
+            string portion1 = total.Substring(0, 1);
+            string portion2 = total.Substring(1, 5);
+            string portion3 = total.Substring(6, 5);
+            string portion4 = total.Substring(11, 5);
+            int getal = int.Parse("1.2e2", System.Globalization.NumberStyles.Any);
+            Console.WriteLine(getal);
         }
 
         public static void Opdracht3()
@@ -59,7 +116,7 @@ namespace TestStage
             if (m <= 3 && n <= 9)
             {
                 int value = Ackermanns(m, n);
-                Console.WriteLine(value);
+                Console.WriteLine("value is " + value);
             }
             else
             {
